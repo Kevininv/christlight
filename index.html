@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon application</h1>
+    </header>
+    <main>
+        <p>Ceci est la page d'accueil de mon application. Vous pouvez naviguer vers les autres pages à l'aide des liens ci-dessous.</p>
+        <nav>
+            <ul>
+                <li><a href="politique.html">Politique de Confidentialité</a></li>
+                <li><a href="suppression.html">Suppression des Données</a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mon Application. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Politique de Confidentialité</h1>
+    </header>
+    <main>
+        <p>Nous collectons certaines informations lorsque vous utilisez notre application. Ces informations sont utilisées pour améliorer votre expérience utilisateur et ne sont pas partagées avec des tiers sans votre consentement.</p>
+        <p>Pour plus d'informations sur la manière dont nous traitons vos données, veuillez consulter notre <a href="suppression.html">page de suppression des données</a>.</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mon Application. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
